@@ -1,6 +1,7 @@
 import * as amqp from 'amqplib';
 import fetch from 'isomorphic-fetch'; // Importamos isomorphic-fetch en lugar de node-fetch
 
+//Guardado
 async function connect() {
     try {
         const connection = await amqp.connect('localhost');
