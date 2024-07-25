@@ -4,7 +4,7 @@
   "description": "para consimir los mesajes del broker",
   "main": "app.ts",
   "scripts": {
-    "start": "ts-node-dev app.ts",
+    "start": "ts-node-dev app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "albertosmc",
@@ -13,6 +13,7 @@
     "@types/isomorphic-fetch": "^0.0.39",
     "amqplib": "^0.10.3",
     "isomorphic-fetch": "^3.0.0",
+    "mqtt": "^5.8.1",
     "node-fetch": "^3.3.2"
   },
   "devDependencies": {
